@@ -22,7 +22,7 @@ class ContaCorrente{
         {
             return;
         }
-
+ 
         this.saldo += valor;
     }
 }
@@ -46,7 +46,7 @@ contaCorrenteRicardo.agencia = 1001;
 contaCorrenteRicardo.depositar(100);
 contaCorrenteRicardo.depositar(100);
 contaCorrenteRicardo.depositar(100);
-contaCorrenteRicardo.sacar(50);
+contaCorrenteRicardo.sacar(100);
 
 const valorSacado = contaCorrenteRicardo.sacar(50);
 console.log(valorSacado);
