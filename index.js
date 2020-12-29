@@ -11,9 +11,8 @@ cliente2.nome = "Alice";
 cliente2.cpf = 88822233309;
 
 const contaCorrenteRicardo = new ContaCorrente();
-contaCorrenteRicardo.saldo = 0;
 contaCorrenteRicardo.agencia = 1001;
-
+contaCorrenteRicardo.Cliente = cliente1;
 
 contaCorrenteRicardo.depositar(100);
 contaCorrenteRicardo.depositar(100);
